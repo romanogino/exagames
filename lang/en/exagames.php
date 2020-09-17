@@ -1,11 +1,11 @@
 <?php
 /***************************************************************
-*  Copyright notice
+*  Aviso de derechos de autor
 *
 *  (c) 2006 exabis internet solutions <info@exabis.at>
 *
-*  You can redistribute it and/or modify
-*  it under the terms of the GNU General Public License as published by
+*  Se permite la distribución o modificación
+*  con los términos de GNU General Public License como está publicado
 *  the Free Software Foundation; either version 2 of the License, or
 *  (at your option) any later version.
 *
@@ -27,29 +27,29 @@
 $string['pluginname'] = 'Exabis Games';
 $string['modulename'] = 'Exabis Games';
 $string['modulenameplural'] = 'Exabis Games';
-$string['pluginadministration'] = 'Exabis Games administration';
+$string['pluginadministration'] = 'Exabis Games administracion';
 
-$string['question'] = 'Question: ';
-$string['configure_quiz'] = 'Configure Quiz';
-$string['configure_questions'] = 'Configure Questions';
-$string['question_configured'] = 'Question configured';
-$string['question_not_configured'] = 'Question not configured';
-$string['modulename_help'] = 'The exabis games module imports quizzes of the type "multiple choice" and "true/false" to games to support the execution of these tasks with animations within a game context.
+$string['question'] = 'Preguntas: ';
+$string['configure_quiz'] = 'Configurar Quiz';
+$string['configure_questions'] = 'Configurar preguntas';
+$string['question_configured'] = 'Preguntas configuradas';
+$string['question_not_configured'] = 'Preguntas no configuradas';
+$string['modulename_help'] = 'The exabis games module importa quizzes del tipo "multiple choice" y "true/false" a juegos para apoyar la ejecución de las tareas, con animación en un contexto de juego.
 
-There are 2 games to choose from currently:
+Actualmente hay dos juegos para elegir:
 
-* BrainGame: The goal is to answer questions correctly and help the scientist to reach his goal of flying into space!
+* BrainGame: El objetivo es responder correctamente a las preguntas y ayudar al científico a alcanzar su objetivo de volar al espacio.
 
-* Exaclicks: As time goes by, an image becomes more and more visible and supports the student on picking the correct answers to the questions.
+* Exaclicks: A medida que pasa el tiempo, una imagen se hace cada vez más visible y ayuda al estudiante a elegir las respuestas correctas a las preguntas.
 
-NOTE: The Exaclicks game type is configured within the exabis game activity. Any Images uploaded to this course (as resources or inside folders) can be used for the configuration of the questions.';
+NOTE: The Exaclicks está configurado dentro de la actividad de juego de exabis. Cualquier imagen cargada en este curso (como recursos o dentro de carpetas) puede ser usada para la configuración de las preguntas.';
 
 // Edit Module Instance
 $string['exagamesintro'] = 'Intro';
-$string['exagamesname'] = 'Name';
-$string['noquizzesincourse'] = 'Please create {$a->linkTag}a new quiz</a> first, before you add an Exabis Game!';
-$string['savingdata'] = 'Saving data...';
-$string['gametype'] = 'Game-Type';
+$string['exagamesname'] = 'Nombre';
+$string['noquizzesincourse'] = 'Por favor crear {$a->linkTag}a new quiz</a> first, before you add an Exabis Game!';
+$string['savingdata'] = 'Grabando datos...';
+$string['gametype'] = 'Juego tipo';
 $string['quizid'] = 'Quiz';
 $string['gametype_help'] = 'Exabis-Games beinhaltet derzeit 2 Spiele:
 
@@ -65,19 +65,19 @@ $string['game_gamelabs'] = 'gamelabs.at';
 $string['game_tiles_rules'] = 'Are you ready for the exaclick challenge? Try to recognize what you see on these pictures and answer the questions. Here is what you need to do:<br />1. Click “Start” and a hidden image will appear. Tiles will gradually drop revealing more and more of the image/clip.<br />2. If you think you know enough, click “Stop”, the earlier you click “Stop” the higher your score will be. – But watch out!  If you click too early you might not yet see enough to answer the question!<br />3. Answer the pertaining question before time runs out.  You have 40 seconds to answer each question. You will get a higher score for more difficult questions and the faster you answer. Give a wrong answer and you will lose a life.<br />4. Keep on going until the end of the game<br />The questions will get more and more difficult. Be careful, you only have three lives. Only the most courageous and clever learners will be able to break the high-score. May the force be with you!';
 
 // Config
-$string['version_5.2.0_needed'] = 'Exagames requires at least PHP-Version 5.2.0';
+$string['version_5.2.0_needed'] = 'Exagames requiere al menos PHP-Version 5.2.0';
 
-$string['brain_istrue'] = 'True';
-$string['brain_isfalse'] = 'False';
-$string['brain_noquestions'] = "No questions configured yet!";
-$string['brain_continue'] = "Continue";
+$string['brain_istrue'] = 'Verdadero';
+$string['brain_isfalse'] = 'Falso';
+$string['brain_noquestions'] = "No hay preguntas configuradas!";
+$string['brain_continue'] = "Continuar";
 
 $string['tiles_difficultyLabel'] = 'Fade';
-$string['tiles_difficultyLabel_easy'] = 'Slow';
-$string['tiles_difficultyLabel_medium'] = 'Average';
+$string['tiles_difficultyLabel_easy'] = 'Lento';
+$string['tiles_difficultyLabel_medium'] = 'Promedio';
 $string['tiles_difficultyLabel_hard'] = 'Fast';
 $string['tiles_randomizeButton'] = 'Randomize';
-$string['tiles_simulateButton'] = 'Simulate';
+$string['tiles_simulateButton'] = 'Simular';
 $string['tiles_resetButton'] = 'Reset';
-$string['tiles_saveButton'] = 'Save';
-$string['tiles_saveText'] = 'Configuration saved!';
+$string['tiles_saveButton'] = 'Grabar';
+$string['tiles_saveText'] = 'Configuracion grabada!';
